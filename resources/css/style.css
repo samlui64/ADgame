@@ -1,30 +1,72 @@
+html{
+	font-size: 1vw;
+}
 
-.game_wrapper {
+.game_wrapper{
 	position: absolute;
 	top: 0;
 	bottom: 0;
 	left: 0;
 	right: 0;
 	overflow: hidden;
+	/*using flex display style*/
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-self: center;
 }
 
 h1{ 
-		font-size: 50
-
+	font-size: 2vw;
 }
 
-.title {
+.title{
 	width: 100%;
-	text-align: center;
+	text-align: left;
 	color: white;
-	margin-top: 400px;
-
+	margin-top: 3vw;
 }
 
-.button {
+.button{
 	width: 100%;
 	display: flex;
 	justify-content: center;
 }
+.clickable_button{
+	width: 10vw;
+    height: 5vw;
+    font-size: 2vw;
+}
 
+.game_wrapper_question{
+	position: absolute;
+	top: 0;
+	bottom: 0;
+	left: 0;
+	right: 0;
+	overflow: hidden;
 
+	display: flex;
+}
+
+.adopt{
+	position: absolute;
+    top: 47px;
+    left: 110px;
+	width: 50%;
+	height: 50%;
+}
+
+.homepage{
+	position: absolute;
+    top: 10px;
+    left: 5px;
+	margin: 0;
+}
+
+.staff_page{
+	position: absolute;
+    bottom: 12px;
+    left: 195px;
+	margin: 0;	
+}
