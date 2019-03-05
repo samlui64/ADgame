@@ -4,49 +4,18 @@ html{
 
 .game_wrapper{
 	position: absolute;
-	top: 0;
-	bottom: 0;
-	left: 0;
-	right: 0;
-	overflow: hidden;
-	/*using flex display style*/
-	display: flex;
-	flex-direction: column;
-	justify-content: center;
-	align-self: center;
+	width: 98.5vw;
+	height: 70vw;
 }
 
 h1{ 
 	font-size: 2vw;
 }
 
-.title{
-	width: 100%;
-	text-align: left;
-	color: white;
-	margin-top: 3vw;
-}
-
-.button{
-	width: 100%;
-	display: flex;
-	justify-content: center;
-}
 .clickable_button{
 	width: 10vw;
     height: 5vw;
     font-size: 2vw;
-}
-
-.game_wrapper_question{
-	position: absolute;
-	top: 0;
-	bottom: 0;
-	left: 0;
-	right: 0;
-	overflow: hidden;
-
-	display: flex;
 }
 
 .adopt{
@@ -64,16 +33,213 @@ h1{
 	margin: 0;
 }
 
-.staff_page{
+.backbuttonDOG{
 	position: absolute;
-    bottom: 12px;
-    left: 195px;
+    top: 155px;
+    left: 0px;
 	margin: 0;	
 }
 
-.backbutton{
+.backbuttonCAT{
 	position: absolute;
-    top: 145px;
-    left: 10px;
+    top: 155px;
+    left: 0px;
 	margin: 0;	
 }
+
+.dialogue1{
+	position: absolute;
+    bottom: 150px;
+    left: 45px;
+	margin: 0;	
+}
+
+.skip-text{
+	position: absolute;
+    top: 20px;
+    right: 45px;
+	margin: 0;	
+}
+
+.skip-button{
+	position: absolute;
+    top: 80px;
+    right: 70px;
+	margin: 0;	
+}
+
+.click-me{
+	position: absolute;
+    bottom: 250px;
+    left: 425px;
+	margin: 0;	
+}
+
+.click-me01{
+	position: absolute;
+    top: 100px;
+    left: 330px;
+	margin: 0;		
+}
+
+.click-me02{
+	position: absolute;
+    top: 220px;
+    left: 200px;
+	margin: 0;		
+}
+
+.dog-button{
+	position: absolute;
+    top: 160px;
+    left: 60px;
+	margin: 0;		
+}
+
+.back-button {
+	position: absolute;
+    top: 130px;
+    left: 0px;
+	margin: 0;	
+}
+
+.click-me03{
+	position: absolute;
+    top: 130px;
+    left: 170px;
+	margin: 0;		
+}
+
+.click-me04{
+	position: absolute;
+    top: 50px;
+    left: 150px;
+	margin: 0;		
+}
+
+.homepage4{
+	position: absolute;
+    top: 0px;
+    left: 0px;
+	margin: 0;		
+}
+
+.homepage4{
+	position: absolute;
+    top: 0px;
+    left: 0px;
+	margin: 0;	
+}
+
+.catCL{
+	position: absolute;
+    top: 340px;
+    left: 75px;
+	margin: 0;	
+}
+
+.dogCL{
+	position: absolute;
+    top: 175px;
+    left: 75px;
+	margin: 0;	
+}
+
+.otherCL{
+	position: absolute;
+    bottom: 150px;
+    left: 75px;
+	margin: 0;	
+}
+
+.profile-pumpkin{
+	position: absolute;
+    top: 250px;
+    left: 50px;
+	margin: 0;	
+}
+
+.profile-eugene{
+	position: absolute;
+    top: 250px;
+    left: 300px;
+	margin: 0;
+}
+
+.profile-owl{
+	position: absolute;
+    bottom: 170px;
+    left: 50px;
+	margin: 0;	
+}
+
+.profile-tan{
+	position: absolute;
+    bottom: 170px;
+    left: 300px;
+	margin: 0;
+}
+
+.profile-lucy{
+	position: absolute;
+    top: 250px;
+    left: 50px;
+	margin: 0;	
+}
+
+.profile-penny{
+	position: absolute;
+    top: 250px;
+    left: 300px;
+	margin: 0;
+}
+
+.profile-banjo{
+	position: absolute;
+    bottom: 170px;
+    left: 50px;
+	margin: 0;	
+}
+
+.profile-slag{
+	position: absolute;
+    bottom: 170px;
+    left: 300px;
+	margin: 0;
+}
+
+.profile-mazos{
+	position: absolute;
+    bottom: 170px;
+    left: 550px;
+	margin: 0;
+}
+
+.YES{
+	position: absolute;
+    bottom: 210px;
+    right: 375px;
+	margin: 0;
+}
+
+.NO{
+	position: absolute;
+    bottom: 150px;
+    right: 375px;
+	margin: 0;
+}
+
+.again{
+	position: absolute;
+    bottom: 230px;
+    right: 100px;
+	margin: 0;
+}
+
+
+
+
+
+
+
+
